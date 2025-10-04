@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cezary Lukasz Gebczyk - Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="language-selector">
+                <button class="language-flag active" data-lang="en" title="English">
+                    🇺🇸
+                </button>
+                <button class="language-flag" data-lang="es" title="Español">
+                    🇪🇸
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-translate="nav.home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-translate="nav.experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-translate="nav.skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-translate="hero.greeting">Hi, I'm</span> <span class="highlight">Cezary Lukasz Gebczyk</span>
+                </h1>
+                <h2 class="hero-subtitle" data-translate="hero.title">Full-Stack Web Developer</h2>
+                <p class="hero-description" data-translate="hero.description">
+                    Passionate full-stack developer with 3+ years of expertise in Java and Angular development. 
+                    Currently working with Spring Boot, Angular, AWS, and modern web technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-translate="hero.contact">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary" data-translate="hero.work">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="headshot.png" alt="Cezary Lukasz Gebczyk" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about.description1">
+                        I am a dedicated full-stack web developer with more than 3 years of expertise in Java and Angular development. 
+                        Currently working at APPLUS IDIADA, I focus on developing Spring Boot and Angular applications for 
+                        electromobility and public transport management.
+                    </p>
+                    <p data-translate="about.description2">
+                        I am focused on making the most out of my time, leveraging my youth and strong work ethic to continuously 
+                        grow and improve. I want to continue working mainly with Spring Boot and expanding my expertise in this framework.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Born: October 29, 2003</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lleida, Spain</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Spanish, English, Polish, Catalan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-translate="experience.title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-translate="job.title">Software Developer</h3>
+                            <span class="company applus">APPLUS IDIADA</span>
+                            <span class="period" data-translate="job.applus.period">May 2024 - Present</span>
+                            <span class="location">Santa Oliva, Spain</span>
+                        </div>
+                        <p data-translate="job.applus.description">
+                            Currently focused on Spring Boot development for electromobility and public transport management applications. 
+                            Also working with Angular frontends and AWS infrastructure.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-translate="job.title">Software Developer</h3>
+                            <span class="company aritmos">ARITMOS</span>
+                            <span class="period" data-translate="job.aritmos.period">November 2023 - April 2024</span>
+                            <span class="location">Lleida, Spain</span>
+                        </div>
+                        <p data-translate="job.aritmos.description">
+                            Focused mainly on Angular development and API integration. Built custom frontends and integrated them with SAGE X3 systems.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">API Development</span>
+                            <span class="tech-tag">SAGE X3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-translate="job.title">Software Developer</h3>
+                            <span class="company indra">INDRA</span>
+                            <span class="period" data-translate="job.indra.period">June 2022 - August 2023</span>
+                            <span class="location">Lleida, Spain</span>
+                        </div>
+                        <p data-translate="job.indra.description">
+                            Started my career here maintaining Java legacy applications and fixing bugs. 
+                            Worked with Java, SAP ABAP, JSF, and databases like MySQL and PostgreSQL in an Agile environment.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">SAP ABAP</span>
+                            <span class="tech-tag">JSF</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-translate="skills.backend">Backend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Spring</span>
+                        <span class="skill-item">PHP</span>
+                        <span class="skill-item">Laravel</span>
+                        <span class="skill-item">Python</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-translate="skills.frontend">Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Angular</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">PrimeFaces</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-translate="skills.databases">Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-translate="skills.devops">DevOps & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Jenkins</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">Windows Server</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>CFGS - Web Application Development</h3>
+                        <p class="institution">ILERNA Lleida</p>
+                        <p class="period">September 2021 - June 2023</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>CFGM - Microcomputer Systems and Networks</h3>
+                        <p class="institution">ILERNA Lleida</p>
+                        <p class="period">June 2019 - September 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-translate="contact.title">Let's work together!</h3>
+                    <p data-translate="contact.description">
+                        I'm always interested in new opportunities and challenging projects. 
+                        Feel free to reach out if you'd like to discuss potential collaborations.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:cezarygebczyk117@gmail.com">cezarygebczyk117@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+34643804081">(+34) 643 804 081</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lleida, Spain</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Cezary Lukasz Gebczyk. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
